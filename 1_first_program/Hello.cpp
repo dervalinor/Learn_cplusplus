@@ -10,6 +10,7 @@ g++ -Wall -o Hello Hello.cpp
  */
 
 #include <iostream>//include libraries
+//iostream - It is used in standard Input / Output Streams Library.
 
 int main() { //the main function, beginning of function
   
