@@ -39,7 +39,7 @@ To have a condition, we need relational operators:
     std::cout << "Heads\n";
   
   }
-	else {
+	else { //case of condition is false
 	
     std::cout << "Tails\n";
   
