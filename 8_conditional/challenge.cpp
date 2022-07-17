@@ -27,10 +27,10 @@ Here is the table of conversion:
 
   std::cout << "Planet: \n"; 
   std::cout << "1 Mercury" << std::endl;
-  std::cout << "2	Venus" << std::endl;
-  std::cout << "4	Jupiter" << std::endl;
-  std::cout << "6	Uranus"	 << std::endl;
-  std::cout << "7	Neptune" << std::endl;
+  std::cout << "2 Venus" << std::endl;
+  std::cout << "4 Jupiter" << std::endl;
+  std::cout << "6 Uranus" << std::endl;
+  std::cout << "7 Neptune" << std::endl;
   std::cout << "Choose:"; std::cin >> planet;
   std::cout << "Earth weight: "; std::cin >> mass;
   switch(planet){
