@@ -49,12 +49,12 @@ int main() {
   
   double total = 0.0;
   
+  for(int i = 0; i < delivery_order.size(); i ++) {
+    
+    total = total + delivery_order[i];
   
-  
-  
-  
-  
-  
-  
+  }
+
+  std::cout << "Total: " << total << "\n";
   
 }
