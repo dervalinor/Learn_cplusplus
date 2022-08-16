@@ -1,34 +1,22 @@
 /*
- solution for ax^2 + bx + c = 0
+Write a function average() that takes:
+
+A double parameter named num1.
+A double parameter named num2.
+The function should return a double that is the average of the arguments passed in.
 */
 
 #include <iostream>
-#include <cmath>
 
-void solution_quadratic(double a, double b, double c){
-  
-  double x1, x2;
+// Define average() here:
 
-  x1 = (-b + sqrt(pow(b, 2) - 4*a*c))/(2*a);
-  x2 = (-b - sqrt(pow(b, 2) - 4*a*c))/(2*a);
-  
-
-  std::cout << "x = (-" << b << " +- " << "sqrt(" << pow(b, 2) - 4*a*c << ")" << ")" << "/" << "(" << 2*a <<") \n";
-  std::cout << "x = (-" << b << " +- " << sqrt(pow(b, 2) - 4*a*c) << ")" << "/" << "(" << 2*a <<") \n";
-  std::cout << "x1: " << x1 << "\n";
-  std::cout << "x2: " << x2 << "\n";
-
+double average(double num1, double num2){
+  return (num1 + num2)/2;
 }
 
-int main(){
+int main() {
 
-  double a, b, c;
+  std::cout << average(42.0, 24.0) << "\n";
+  std::cout << average(1.0, 2.0) << "\n";
 
-  std::cout << "Solution ax^2 + bx + c = 0 \n";
-  std::cout << "\n";
-  std::cout << "a: "; std::cin >> a;
-  std::cout << "b: "; std::cin >> b;
-  std::cout << "c: "; std::cin >> c;
-
-  solution_quadratic(a, b, c);
 }
