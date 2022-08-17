@@ -13,16 +13,8 @@ For example, first_three_multiples(7) should return a vector with 7, 14, and 21.
 // Define first_three_multiples() here:
 std::vector<int> first_three_multiples(int num){
   
-  std::vector<int> multiples; 
+  std::vector<int> multiples = {1*num, 2*num, 3*num}; 
   
-  int j = 0;
-
-  for(int i = 0; i < 3; i ++){
-    j = i + 1;
-    multiples[i] = j*num;
-    j = 0;
-  }
-
   return multiples;
 
 }
