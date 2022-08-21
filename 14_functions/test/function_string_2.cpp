@@ -5,10 +5,16 @@
                   //text.size() 
 
 //define function to display elements of the string
-std::string display_elements(std::string text){
-   
+char display_letter(int i, std::string text){//yes, char function is the
+                                             //solution
+   return text[i];
 }
 
 int main(){
+
+  std::string word;
   
+  std::cout << "Word: "; std::cin >> word;
+  std::cout << "Letter: " << display_letter(2, word) << "\n";
+   
 }
