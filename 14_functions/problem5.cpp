@@ -15,10 +15,27 @@ We will not test for edge cases such as capitalization or spaces.
 */
 
 #include <iostream>
+//The library below must be included for the reverse function to work
+#include<bits/stdc++.h> 
 
 // Define is_palindrome() here:
-std::string is_palindrome(std::string text){
-  
+
+bool is_palindrome(std::string text){
+
+  bool band;
+
+  std::string textre = text;
+
+  reverse(textre.begin(),textre.end()); 
+
+
+  if(text == textre){
+    band = true;
+  } else {
+    band = false;
+  }
+
+  return band;
 }
 
 int main() {
