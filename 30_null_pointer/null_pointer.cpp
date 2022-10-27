@@ -34,5 +34,4 @@ int main() {
 
   // Print ptr
   std::cout << ptr << "\n";
-
 }
