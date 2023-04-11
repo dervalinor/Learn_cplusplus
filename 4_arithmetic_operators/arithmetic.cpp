@@ -28,8 +28,6 @@ int main() {
   int result3 = number1*number2;
   int result4 = number1/number2;
   int result5 = number1%number2;
-
-  //chain: we can written: 
   std::cout << "Sum: ";
   std::cout << result1;
   std::cout << " \n";
