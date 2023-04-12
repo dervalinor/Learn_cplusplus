@@ -10,3 +10,12 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }}
+
+/*The command git config pull.rebase false sets the configuration 
+option pull.rebase to false for the current repository. This means that 
+when you run git pull, Git will perform a merge to integrate changes from the 
+remote branch into your local branch. This is the default behavior of git pull 
+if you do not specify any options. During a merge, Git will create a new merge 
+commit that combines the changes from both branches. This can result in a non-linear 
+history, but it preserves the context of each change and makes it 
+easier to understand how the changes were integrated.*/
