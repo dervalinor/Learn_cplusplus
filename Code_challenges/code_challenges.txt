@@ -2,4 +2,18 @@ Challenge 1: Generate 365 code challenges c++ in bard google and chatbing.
 
 Challenges chatbing
 
-1. Write 
+1. Write a program that reads a list of integers
+ from the user and sorts them in ascending order 
+ using the bubble sort algorithm.
+
+Write a program that reads a list of integers from the user and finds 
+the two numbers that sum to a target value.
+
+Write a program that reads a string from the user and compresses it 
+using run-length encoding.
+
+Write a program that reads a list of integers from the user and 
+finds the longest increasing subsequence.
+
+Write a program that reads a matrix of integers from the user 
+and finds the largest sum of elements in any of its submatrices.
