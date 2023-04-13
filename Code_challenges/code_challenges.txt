@@ -6,6 +6,10 @@ Challenges chatbing
  from the user and sorts them in ascending order 
  using the bubble sort algorithm.
 
+2. Write a program that takes an integer n as input and output the first n numbers in the FizzBuzz 
+sequence (for multiples of 3 output "Fizz", for multiples of 5 output "Buzz", for multiples of 
+both 3 and 5 output "FizzBuzz", for all other numbers output the number itself)
+
 Write a program that reads a list of integers from the user and finds 
 the two numbers that sum to a target value.
 
